@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mydir="$(dirname "$BASH_SOURCE")"
+
+Echo $mydir
+
+open -a Terminal.app $mydir/AdobeSecurePrint3.0.command
+
+bash
